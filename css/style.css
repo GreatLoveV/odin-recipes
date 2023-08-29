@@ -2,33 +2,78 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 .bighead {
-     color:black;
-     font-size: 40px;
-     font-weight: 900;
-     font-family:'Courier New', Courier, monospace;
+    color:black;
+    font-size: 40px;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
 }
 .picture {
+    box-sizing: border-box;
     width: 600px;
     height: auto;
     border-radius: 25px;
+    border-color: black;
+    border: 4px;
+    border-style: double;
 }
 .desc {
+    box-sizing: border-box;
+    display: inline-block;
     background-color:rgb(252, 252, 127);
     color:black;
     font-weight: 600;
+    border-radius: 25px;
+    border:4px;
+    border-color: black;
+    border-style: double;
+    border-bottom: 2px;
+    border-bottom-style: dotted;
+    
+    padding: 20px;
+    margin-top: 2em;
+    
+}
+.desc.two {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 10px;
+    margin-top: -20px;
+    border: 4px;
+    border-color: black;
+    border-style: double;
+    border-top: 2px;
+    border-top-style: dotted;
     
 }
 .smallhead{
     text-decoration: underline;
+    
 
 }
 .unordered{
+    box-sizing: border-box;
+    display: inline-block;
     color: white;
     background-color: rgb(122, 221, 122);
     font-weight: 600;
+    border-radius: 25px;
+    padding: 20px;
+    border: 4px;
+    border-color: black;
+    border-style: double;
+    
 }
 .ordered{
+    box-sizing: border-box;
+    display: inline-block;
     color: white;
     background-color: rgb(241, 165, 178);
     font-weight: 600;
+    border-radius: 25px;
+    padding: 35px;
+    border: 4px;
+    border-color: black;
+    border-style: double;
 }
